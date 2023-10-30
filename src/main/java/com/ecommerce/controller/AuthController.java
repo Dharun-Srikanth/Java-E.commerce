@@ -20,18 +20,23 @@ import static com.ecommerce.utils.FileUtil.getCredentialsFile;
 import static com.ecommerce.utils.UsersUtil.setLoggedInUser;
 import static com.ecommerce.utils.Utils.print;
 import static com.ecommerce.utils.Utils.println;
+import static com.ecommerce.view.CartPage.setTotal;
 
 public class AuthController implements IAuthController {
-    private final HomeController homeController;
-    private final AppController appController;
-    private final LoginPage loginPage;
-    private final RegisterPage registerPage;
+    private static HomeController homeController;
+    private static AppController appController;
+    private static LoginPage loginPage;
+    private static RegisterPage registerPage;
 
-    public AuthController(AppController appController) {
-        this.appController = appController;
+
+    public AuthController(AppController appControllerObj) {
+        appController = appControllerObj;
         homeController = new HomeController();
         loginPage = new LoginPage();
         registerPage = new RegisterPage();
+    }
+
+    public AuthController() {
     }
 
     @Override
@@ -52,7 +57,7 @@ public class AuthController implements IAuthController {
     }
 
     private void invalidInput(AppException exp) {
-        println(exp.getMessage());
+        println(StringUtil.DISPLAY_CENTER+exp.getMessage());
         authMenu();
     }
 
@@ -130,8 +135,8 @@ public class AuthController implements IAuthController {
         authMenu();
     }
 
-    @Override
-    public void logout() {
-
+    public static void logout() {
+        appController.printAuthMenu();
+        setTotal(0);
     }
 }

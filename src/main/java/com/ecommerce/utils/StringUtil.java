@@ -2,6 +2,7 @@ package com.ecommerce.utils;
 
 public class StringUtil {
     public static final String DESIGN = "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+    public static final String STAR_DESIGN = "*****************************************************************************************************************************************************************";
     public static final String DISPLAY_CENTER = "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t";
     public static final String DISPLAY_END = "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t";
     public static final String WELCOME_MESSAGE = "Welcome to SHOP*by*JAVA";
@@ -9,7 +10,10 @@ public class StringUtil {
     public static final String BEFORE_LOGIN_MSG = "You need to login first!";
     public static final String LOGO = "#SHOP*by*JAVA";
     public static final String AUTH_MENU = "1.Login \t 2.Register";
-    public static final String AFTER_LOGIN_MENU = "1.Products\t2.Cart\t3.Orders\t4.Logout";
+    public static final String HOME_MENU = "1.Products\t 2.Cart\t 3.Orders\t4.Logout";
+    public static final String PRODUCT_MENU = "1.Products*\t 2.Cart\t 3.Orders\t4.Logout";
+    public static final String CART_MENU = "1.Products\t 2.Cart*\t 3.Orders\t4.Logout";
+    public static final String ORDER_MENU = "1.Products\t 2.Cart\t 3.Orders*\t4.Logout";
     public static final String SEARCH = "|| 0. Search ||";
     public static final String ENTER_CHOICE = "Press '1' to Login (or) '2' to Register: ";
     public static final String ENTER_NAV_CHOICE = "Press '0' to '4' to access corresponding 'Navbar Options':  ";

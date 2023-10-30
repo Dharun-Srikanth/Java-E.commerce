@@ -1,5 +1,7 @@
 package com.ecommerce.view;
 
+import com.ecommerce.controller.AppController;
+import com.ecommerce.controller.AuthController;
 import com.ecommerce.utils.StringUtil;
 
 import static com.ecommerce.utils.Utils.print;
@@ -27,5 +29,6 @@ public class WelcomePage {
     public void printAuthMenu(){
         println("\n");
         println(StringUtil.DISPLAY_CENTER+StringUtil.BEFORE_LOGIN_MSG);
+        new AuthController().authMenu();
     }
 }

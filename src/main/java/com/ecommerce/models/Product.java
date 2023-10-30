@@ -5,52 +5,44 @@ import com.ecommerce.utils.AppException;
 import java.sql.Timestamp;
 
 public class Product {
-    private Timestamp id;
+    private int id;
     private int stocks;
     private String title;
     private double price;
     private String description;
+    private Category category;
 
-    public Timestamp getId() {
-        return id;
+
+    public Product(int id, String title, String description, double price, int stocks, Category category) {
+        this.id = id;
+        this.stocks = stocks;
+        this.title = title;
+        this.price = price;
+        this.description = description;
+        this.category = category;
     }
 
-    public void setId(Timestamp id) {
-        this.id = id;
+    public int getId() {
+        return id;
     }
 
     public int getStocks() {
         return stocks;
     }
 
-    public void setStocks(int stocks) {
-        this.stocks = stocks;
-    }
-
     public String getTitle() {
         return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) throws AppException {
-        if(price<=0){
-            throw new AppException("Price Cannot be negative");
-        }
-        this.price = price;
-    }
-
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public Category getCategory() {
+        return category;
     }
 }

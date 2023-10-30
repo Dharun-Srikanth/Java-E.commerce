@@ -32,7 +32,6 @@ public class AppController implements IAppController {
         }else{
             init();
         }
-        authController.authMenu();
     }
 
     @Override
