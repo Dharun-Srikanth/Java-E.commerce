@@ -2,15 +2,17 @@
 <h3> E-Commerce Project using Java </h3>
 
 <h4>💻 Tech Stack: </h4>
-      <p>🧑🏻‍💻 Language: Java</p>
-      <p>🧑🏻‍💻 Java Version: Java 17</p>
-      <p>🧑🏻‍💻 Architecture: MVC (Model View Controller)</p>
+      <p>&emsp;🧑🏻‍💻 Language: Java</p>
+      <p>&emsp;🧑🏻‍💻 Java Version: Java 17</p>
+      <p>&emsp;🧑🏻‍💻 Architecture: MVC (Model View Controller)</p>
 
-<h4>Important Java Concepts Used </h4>
-      <p>📘 Interface</p>
-      <p>📘 Encapsulation</p>
-      <p>📘 Polymorphism</p>
-      <p>📘 String</p>
-      <p>📘 Collections</p>
+<h4>💡 Important Java Concepts Used </h4>
+      <p>&emsp;📘 Interface</p>
+      <p>&emsp;📘 Encapsulation</p>
+      <p>&emsp;📘 Polymorphism</p>
+      <p>&emsp;📘 String</p>
+      <p>&emsp;📘 Collections</p>
+      <p>&emsp;📘 Exception Handling</p>
+      <p>&emsp;📘 File Handling</p>
       
 <img src=""/>
