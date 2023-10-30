@@ -35,25 +35,33 @@
       <p>&emsp;&emsp;🚀 checkout from cart </p>
       <p>&emsp;&emsp;🚀 orders viewing </p>
 
-<h4>Screenshots</h4>  
-<h5>Welcome Page</h5>
+<h4>📸 Screenshots</h4>  
+<h5>🌐 Welcome Page 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/1.png"/>
 
-<h5>Login or Register</h5>
+<h5>🌐 Login or Register 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/2.png"/>
 
-<h5>Login Page</h5>
+<h5>🌐 Login Page 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/3.png"/>
 
-<h5>Homepage</h5>
+<h5>🌐 Homepage 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/4.png"/>
 
-<h5>Product Page</h5>
+<h5>🌐 Product Page 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/5.png"/>
 
-<h5>Cart Page</h5>
+<h5>🌐 Cart Page 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/6.png"/>
 
-<h5>Orders Page</h5>
+<h5>🌐 Orders Page 🌐</h5>
 <img src="https://raw.githubusercontent.com/Dharun-Srikanth/Java-E.commerce/master/screenshots/7.png"/>
 
+<h4>🦾 Challenges Faced</h4>
+      <p>&emsp;&emsp;🦾 File accessing </p>
+      <p>&emsp;&emsp;🦾 Updating cart values </p>
+
+<h4>😺 Yet to complete</h4>
+      <p>&emsp;&emsp;😺 Cart file (.csv) update </p>
+      <p>&emsp;&emsp;😺 Admin Functionalities </p>
+      
