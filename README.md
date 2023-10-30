@@ -1,4 +1,3 @@
-<pre>
 <h1> Java-E.commerce Project Details </h1>
 <h3> E-Commerce Project using Java </h3>
 
@@ -15,4 +14,3 @@
       <p>📘 Collections</p>
       
 <img src=""/>
-</pre>
